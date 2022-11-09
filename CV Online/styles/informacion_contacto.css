@@ -1,0 +1,13 @@
+.informacion_contacto{
+    background-color: black;
+}
+
+.informacion_contacto ul{
+    display: flex;
+    padding: 20px;
+}
+
+.informacion_contacto ul li{
+    flex: 1;
+    text-align: center;
+}

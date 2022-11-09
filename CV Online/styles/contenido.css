@@ -1,0 +1,62 @@
+.contenido {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    background-image: linear-gradient(to bottom right, rgb(46, 200, 46), rgb(35, 38, 239));
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenido h2 {
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+}
+
+.contenido p {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: auto 0;
+}
+
+.certificados {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.certificados>img {
+    width: 20vw;
+    border: 2px grey solid;
+    box-shadow: -2px 5px 10px black;
+}
+
+.contenido .cartas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto 0;
+    align-content: space-around;
+}
+
+.carta_proyecto {
+    background-color: rgb(61, 117, 221);
+    width: 40%;
+    height: 150px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.carta_proyecto:hover{
+    background-color: rgb(41, 97, 201);
+    box-shadow: -2px 2px 10px black;
+    transition-property: background-color, box-shadow;
+    transition-duration: 200ms;
+}
